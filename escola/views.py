@@ -2,8 +2,8 @@ from django.http import JsonResponse
 
 def estudantes(request):
     if request.method == 'GET':
-        estudantes = {
+        estudante = {
             'id': '1',
             'nome': 'lais'
         }
-        return JsonResponse(estudantes)
+        return JsonResponse(estudante)
